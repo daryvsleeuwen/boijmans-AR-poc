@@ -17,7 +17,7 @@ const ARPOC = () => {
 
     return (
       <ViroARScene>
-        <ViroBox width={1} height={1} scale={[0.5, 0.5, 0]} position={[0, 0, -1]} materials={['monaLisa']} />
+        <ViroBox width={0.5} height={0.5 * 1.493} length={0} position={[0, 0, -1]} materials={['monaLisa']} />
       </ViroARScene>
     );
   }
